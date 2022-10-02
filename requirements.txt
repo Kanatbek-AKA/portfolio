@@ -1,0 +1,10 @@
+# Basic packages 
+pip install -U Flask
+pip install -U Flask-HTTPAuth
+pip install -U Flask-AppBuilder
+pip install -U Flask-SQLAlchemy
+pip install -U SQLAlchemy
+pip install -U SQLAlchemy_Utils
+pip install -U Jinja2
+
+# pip install -U Flask-Bootstrap

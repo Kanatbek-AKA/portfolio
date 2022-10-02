@@ -1,0 +1,228 @@
+/* Body */
+body {
+  background-color: black;
+}
+
+/* Header */
+.img_container {
+  font-family: Verdana;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 20px;
+  letter-spacing: 2px;
+  margin: 150px 0 0 50px;
+  color: snow;
+  transition: all 0.5s ease;  
+}
+
+
+.box {
+  display: inline-block;
+  min-width: 1250px;
+  min-height: 350px;
+
+  /*text-align: center;*/
+}
+
+/* Image */
+picture, #img_media {
+  margin-top: 40px;
+  border-radius: 100px;
+  width: 300px;
+  margin-left: 40px;
+
+}
+
+/* Authors Name and introduction*/
+.header {
+  position: absolute;
+  top: 200px;
+  left: 470px;
+  width: 700px;
+  height: 200px;
+  border: 1px white hidden;
+  /*border-radius: 15px 50px 30px;*/
+}
+
+.h1 {
+  color: wheat !important;
+  font-size: 30px;
+  font-family: Verdana, sans-serif;
+  /*text-indent: 5px;*/
+  letter-spacing: 3px;
+} 
+
+.p1 {
+  color: lightslategray;
+  font-size: 15px;
+  padding: 10px;
+  font-family: sans-serif;
+  font-stretch: condensed;  /*expanded,semi-condensed,extra|ultra-expanded,150%, 100%, 50%*/
+  font-style: oblique;
+  /*font-variant-east-asian: none;         normal,ruby, jis78-83-90-04,simplified, tradinitional,full-width,proportional-width*/
+  /*font-variant: small-caps ;  initial, inherit, revert, revert-layer, unset, small-caps*/
+  text-indent: 5px;
+ } 
+
+/* Navigator */
+nav {
+    text-indent: 6em;
+    margin-right: 100px;
+    margin-left: 100px;
+    /*opacity: 0.7;*/
+    /*text-decoration: none;*/
+}
+
+ul,
+.about,
+.skills,
+.contact {
+    display: inline-block;
+    font-family: Garamond, serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.a:link {
+    color: yellow;
+    text-decoration: none;
+}
+
+.a:visited {
+    color: lightgoldenrodyellow;
+}
+
+.a:hover {
+    color: yellowgreen;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    opacity: 0.9;
+}
+
+/* Line */
+hr {
+  margin-left: 420px;
+  margin-right: 510px;
+}
+
+
+/* Container content */
+.main {
+  display: block;
+  margin: 100px 150px 50px 150px;  /*top left bottom right*/
+  background-color: lightgray;
+ }
+
+.container {
+  box-sizing: border-box;
+  max-height: 100mm;
+  max-width: 180px;
+  margin-left: 70px;
+  border: thin green solid;
+  /*border-radius: 75px;*/
+  overflow-wrap: break-word;
+}
+
+.h2 {
+  font-size: 10px;
+  font-family: monospace;
+  font-style: italic;
+  color: darkblue;
+  padding: 10px;
+  text-align: center;
+  overflow: auto;
+}
+h2 {
+  margin-top: 50px;
+}
+.p2 {
+  color: darkcyan;
+  font-family: fantasy ;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.container2 {
+  box-sizing: border-box;
+  max-height: 100mm;
+  max-width: 180px;
+  border: thin green solid;
+  /*border-radius: 75px;*/
+  overflow-wrap: break-word;
+  position: absolute;
+  top: 660px;
+  left: 550px;
+}
+
+.container3 {
+  box-sizing: border-box;
+  max-height: 100mm;
+  max-width: 180px;
+  border: thin green solid;
+  /*border-radius: 75px;*/
+  overflow-wrap: break-word;
+  position: absolute;
+  top: 1010px;
+  left: 550px;
+}
+
+
+.container4 {
+  box-sizing: border-box;
+  max-height: 100mm;
+  max-width: 180px;
+  border: thin green solid;
+  /*border-radius: 75px;*/
+  overflow-wrap: break-word;
+  position: absolute;
+  top: 660px;
+  left: 900px;
+}
+
+.container5 {
+  box-sizing: border-box;
+  max-height: 100mm;
+  max-width: 180px;
+  border: thin green solid;
+  /*border-radius: 75px;*/
+  overflow-wrap: break-word;
+  position: absolute;
+  top: 1010px;
+  left: 900px;
+}
+
+/* Commented out Test table */
+/*div.test_table {
+  display: table;
+  width: 300px;
+  height: 300px;
+  background-color: rgba(20, 55, 255, 0.5);
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+.test_tb {
+  display: table-cell;
+  color: rgb(100, 255, 255);
+}
+*/
+
+/* Footer */
+footer  {
+  border: 5px lightgoldenrodyellow hidden;
+  border-top-width: 10px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  }
+
+p {
+  font-family: Verdana, serif;
+  font-size: Georgia, sans-serif;
+  color: white;
+  text-align: right;
+  margin-right: 20px;
+  padding: 10px;
+}

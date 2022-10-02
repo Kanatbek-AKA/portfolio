@@ -1,0 +1,266 @@
+/* Body */
+body {
+  margin-right: 100px;
+  margin-left: 100px;
+  background-image: linear-gradient(rgba(0,0,255, .5), rgba(255, 255, 0, .5) ),   
+                    url("/static/images/delivery.png");
+  background-repeat: no-repeat;
+  background-size: 1200px 100px;
+  background-attachment: fixed;
+  background-color: black;
+  background-position: top center;
+}
+
+/* Navigator */
+nav {
+    margin-top: 200px;
+    text-indent: 5em;
+    /*margin-right: 100px;*/
+    /*margin-left: 100px;*/
+    /*opacity: 0.7;*/
+    /*text-decoration: none;*/
+}
+
+ul,
+.about,
+.skills,
+.contact {
+    display: inline-block;
+    font-family: Garamond, serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+}
+
+.a:link {
+    color: yellow;
+    text-decoration: none;
+}
+
+.a:visited {
+    color: darkgreen;
+}
+
+.a:hover {
+    color: greenyellow;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    opacity: 0.9;
+}
+
+/* Line */
+hr {
+  margin-left: 270px;
+  margin-right:330px;
+}
+
+/*Content body*/
+
+/*#masked {
+  -webkit-mask-image: linear-gradient(to bottom, transparent 5%, white 75%);
+  mask-image: linear-gradient(to bottom, transparent 5%, white 75%);
+  -webkit-mask-image: radial-gradient(ellipse 20% 90% at 27% 50%, white 40%, transparent 50%);
+  mask-image: radial-gradient(ellipse 20% 90% at 27% 50%, white 40%, transparent 50%);
+}
+*/
+
+.background {
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-top: 50px;
+  padding: 5px;
+  background: linear-gradient(165deg, red 50%, yellow 60%, firebrick 10%)
+/*black, blue 10%, 50%, white 50%, yellow 30%*/ 
+}
+.refugee {
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-top: 50px;
+  padding: 5px;
+  background: linear-gradient(245deg, dimgrey 10%, green 60%, orchid 50%)
+}
+.countries {
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-top: 50px;
+  padding: 5px;
+  background: linear-gradient(180deg, olivedrab 50%, indigo 60%, lightcoral 10%)
+}
+
+.activities {
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin-top: 50px;
+  padding: 5px;
+  background: linear-gradient(170deg, goldenrod 60%, aqua 10%, crimson 40%) 
+}
+
+h2 {
+  font-family: Verdana, fantasy;
+  margin: 20px 0 0 0;
+  padding: 10px;
+  text-align: left;
+}
+
+h3 {
+  font-family: Verdana, fantasy;
+  padding: 15px;
+  margin: auto;
+}
+
+p {
+  border: 1px white hidden;
+  width: 800px;
+  margin: 0 0 0 20px ;
+  padding: 10px;
+  font-family: sans-serif;
+  letter-spacing: 1px; 
+}
+dfn {
+  margin: 0 0 0 20px ;
+  padding: 15px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Figure image */
+figure {
+  border: thin solid rgba(0, 0, 0, 1.0);
+  display: flex;
+  flex-flow: column;
+  max-width: 250px;
+}
+img {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 75px;
+
+}
+figcaption {
+  background-color: dimgrey;
+  color: blanchedalmond;
+  font: italic serif;
+  padding: 2px;
+  text-align: center;
+}
+
+.column1 {
+    position: absolute;
+    left: 30% !important;
+    bottom: 10px;
+    font-style: oblique;
+    text-transform: full-size-kana;
+    overflow-wrap: auto;
+ }
+
+.column2 {
+    position: absolute;
+    left: 30% !important;
+    top: 135%;
+    font-style: oblique;
+    text-transform: full-size-kana;
+    overflow-wrap: auto;
+}
+
+.column3 {
+    position: absolute;
+    left: 30% !important;
+    top: 220%;
+    font-style: oblique;
+    text-transform: full-size-kana;
+    overflow-wrap: auto;
+}
+
+span {
+  font-style: initial;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+}
+
+
+.column4 {
+    position: absolute;
+    left: 30% !important;
+    top: 280%;
+    font-style: oblique;
+    text-transform: full-width;
+    /*justify-content: start;*/
+    /*text-justify: inter-word;*/
+    overflow-wrap: auto;
+}
+
+
+/*Sport*/
+.sport, dl, dd {
+  padding: 10px;
+  font-family: sans-serif;
+  letter-spacing: 1px; 
+  color: floralwhite;
+}
+
+.hobbies {
+  display: block;
+  position: absolute;
+  top: 345%;
+  left: 600px;
+  z-index: 2;
+}
+
+
+/*Table*/
+/*.table, td {
+  display: inline-block;
+  border: thin hidden black;
+  background-color: rgba(10, 0, 200, .5);
+  margin: 10px; 
+}
+
+tbody, td {
+  margin: 10px;
+  padding: 10px;
+  font-weight: inherit;
+}
+
+#table_th, th {
+  color: black;
+}*/
+
+
+
+.weakness {
+  font-family: Verdana, serif;
+  font-size: 20px;
+  color: snow;
+  border: 1px outset firebrick;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.column5 {
+  position: absolute;
+  top: 420%;
+  left: 30% !important;
+  font-style: oblique;
+  text-transform: full-size-kana;
+  overflow-wrap: auto;
+}
+
+
+/* Footer */
+footer  {
+  border: 5px lightgoldenrodyellow hidden;
+  border-top-width: 10px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  margin: 40px 100px 0 100px;
+  }
+
+p {
+  font-family: Verdana, serif;
+  font-size: Georgia, sans-serif;
+  color: white;
+  text-align: right;
+  margin-right: 20px;
+  padding: 10px;
+}

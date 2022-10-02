@@ -1,0 +1,89 @@
+{% include "header.html" %}
+
+{% block content %}
+
+	<div>
+		<div>
+			
+		</div>
+	</div>
+
+
+{% endblock %}
+	<div class="container">
+		<people class="people">
+			<name>Kanatbek Abdurasulov</name>
+			<address>Netherlands The, Amsterdam</address>
+			<phone><i>Phone and WhatsApp icons: </i>+417 *** **** <br> <span>+316 *** **** </span></phone><br>
+			<email><i>Email icon: </i>aka@sunrise.ch</email><br>
+			<i>Linkedin icon: </i>www.linkedin.com/in/kanatbekabdurasulov<br>
+			<i>Facebook icon: </i>Ptahotep<br>
+		</people>
+		<br>
+		<br>
+
+			<pre>Please, use the form below in case you do not have an email:)</pre>
+			<br>
+			<br>
+			<div class="message">
+			<form>
+					<label for="message">Send a message:</label>
+					<textarea id="message" name="field" rows="14" cols="100" placeholder="">Enter your message here......</textarea>
+					<input type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+
+<!-- interactive map -->
+<!-- <p> You are visiting me from:
+<button onclick="getLocation()">Click Here</button>
+</p>
+<p id="geoLoc"></p>
+
+<script>
+  var x = document.getElementById("geoLoc");
+  var a = 0;
+  var b = 0;
+  // Map variables with global scope
+  var map;
+  var marker;
+
+  function getLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+      x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+  }
+
+  function showPosition(position) {
+    a = position.coords.latitude;
+    b = position.coords.longitude;
+    x.innerHTML = "Latitude: " + a + "<br>Longitude: " + b;
+    // Position of the visitor
+    var uluru = {lat: a, lng: b};
+    // The marker, positioned at visitor
+    marker = new google.maps.Marker({position: uluru, map: map});
+    // Center the map on the new marker position
+    map.setCenter(marker.getPosition());
+  }
+
+  function initMap() {
+    // The map, centered to 0,0
+    map = new google.maps.Map(
+    document.getElementById('map'), {zoom: 4 , center: {lat: 0, lng: 0}});
+  }
+</script>
+
+<h3> Map of Your Location</h3>
+
+<div id = "map" ></div>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLpQ2f_H-LuLiNhbcv0FmpGGQ_NfHsMkE&callback=initMap">
+  </script>
+ -->
+
+{% include "footer.html" %}
+
+</body>
+</html>

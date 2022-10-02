@@ -1,0 +1,152 @@
+/* Body */
+body {
+  margin-right: 100px;
+  margin-left: 100px;
+  background-image: linear-gradient(rgba(0,0,255, .5), rgba(255, 255, 0, .5) ),   
+                    url("/static/images/delivery.png");
+  background-repeat: no-repeat;
+  background-size: 1200px 100px;
+  background-attachment: fixed;
+  background-color: black;
+  background-position: top center;
+}
+
+/* Navigator */
+nav {
+    margin-top: 100px;
+    text-indent: 5em;
+    /*margin-right: 100px;*/
+    /*margin-left: 100px;*/
+    /*opacity: 0.7;*/
+    /*text-decoration: none;*/
+}
+
+ul,
+.about,
+.skills,
+.contact {
+    display: inline-block;
+    font-family: Garamond, serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 50px;
+
+}
+
+.a:link {
+    color: yellow;
+    text-decoration: none;
+}
+
+.a:visited {
+    color: lightgoldenrodyellow;
+}
+
+.a:hover {
+    color: yellowgreen;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    opacity: 0.9;
+}
+
+/* Line */
+hr {
+  margin-left: 270px;
+  margin-right:330px;
+}
+
+/*Content body*/
+#main {
+    display: grid;
+    margin: 50px 150px 0 150px ;
+    /*Grid Height and Width*/
+    /*grid-template: repeat(4, 200px) / repeat(2, 200px);*/
+    /*grid-template-columns: repeat(5, 400px);*/
+    /*justify-items: center;*/
+}
+/*Main header*/
+
+.header {
+    text-align: center;
+    font-family: Time New Romans, serif;
+    letter-spacing: 5px;
+    line-height: 40px;
+    color: steelblue;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px white, 0 0 1em darkgrey, 0 0 0.2em blue;
+}
+
+.section {
+    display: block;
+    border: thin solid white;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1), 0 0 0 2px deepskyblue, 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    overflow-wrap: break-word;
+}
+
+/*Dropdown*/
+.dropdown {
+    margin: 10px 0 0 10px;
+    padding: 3px;
+    position: relative;
+    z-index: 1;
+}
+
+label {
+    color: white;
+    font-style: initial;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+/*select {
+    border: 1px solid teal;
+    outline: 2px;
+    scroll-behavior: smooth;
+    filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=-1, OffY=-1, color=#FF0000) progid:DXImageTransform.Microsoft.dropshadow(OffX=1, OffY=1, color=#FF0000);
+}
+*/
+optgroup, option {
+    background-color: lightgrey;
+    font-style: italic;
+
+}
+
+.intern-box {
+    display: block;
+    border: 1px dashed lightyellow;
+    padding: 5px;
+    margin: 10px 20px 10px 20px;
+    float: right;
+}
+
+
+pre {
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    letter-spacing: 3px;
+}
+
+
+
+
+/* Footer */
+footer  {
+  border: 5px lightgoldenrodyellow hidden;
+  border-top-width: 10px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  border-bottom-width: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+  }
+
+p {
+  font-family: Verdana, serif;
+  font-size: Georgia, sans-serif;
+  color: white;
+  text-align: right;
+  margin-right: 20px;
+  padding: 10px;
+  margin-top: 50px;
+}
